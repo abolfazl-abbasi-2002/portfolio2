@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <!-- ############# start nav ############ -->
+    <nav class="flex col-xs-8 col-s-8 col-m-8 col-l-8 col-xl-8 col-x-7">
+      <div class="nav-part1">
+        <p>Abolfazl Abbasi</p>
+      </div>
+      <ul class="nav-part2 hide flex">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="ham">
+        <i class="fa-solid fa-bars" id="ham-btn" onclick="btn()"></i>
+        <ul class="ham-nav" id="ham-nav">
+          <li><a class="ham-link" onclick="btn2()" href="#about">About</a></li>
+          <li><a class="ham-link" onclick="btn2()" href="#experience">Experience</a></li>
+          <li><a class="ham-link" onclick="btn2()" href="#project">Project</a></li>
+          <li><a class="ham-link" onclick="btn2()" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ############# end nav ############ -->
+    <main id="main"
+      class="flex-col row-gap col-xs-9 col-s-9 col-m-9 col-l-8 col-xl-8 col-x-8"
+    >
+      <!-- ############# start header ############ -->
+      <header class="flex col-xs-9 col-s-9 col-m-7 col-l-6 col-xl-6 col-x-7">
+        <div
+          class="head-logo col-xs-6 col-s-6 col-m-6 col-l-5 col-xl-5 col-x-5"
+        >
+          <img src="assets/p1.JPG" alt="" />
+        </div>
+        <div
+          class="head-bio flex-col col-xs-10 col-s-10 col-m-10 col-l-10 col-xl-10 col-x-5"
+        >
+          <p>Hello,I'm</p>
+          <h1>Abolfazl Abbasi</h1>
+          <h2>Frontend Developer</h2>
+          <div class="head-bio-links flex">
+            <a href="" onclick="window.open('./assets/rezome.pdf')"
+              >Download CV</a
+            >
+            <a href="#contact">Contact Info</a>
+          </div>
+          <div class="head-bio-links2">
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </header>
+      <!-- ######### sec1 about me ##### -->
+      <section
+        class="sec1 pad flex-col col-xs-10 col-s-10 col-m-10 col-l-10 col-xl-10 col-x-10"
+      >
+        <div class="sec1-part1 flex-col">
+          <p>Get To Know More</p>
+          <h2 id="about">About Me</h2>
+        </div>
+        <div
+          class="sec1-part2 flex col-xs-10 col-s-10 col-m-10 col-l-10 col-xl-10 col-x-10"
+        >
+          <img
+            class="col-xs-5 col-s-5 col-m-4 col-l-4 col-xl-4 col-x-3"
+            src="assets/p2.jpg"
+            width="10%"
+            alt=""
+          />
+          <div
+            class="sec1-bio flex-col col-xs-10 col-s-10 col-m-10 col-l-10 col-xl-6 col-x-7"
+          >
+            <div class="sec1-part2-1 flex">
+              <div class="sec1-cards flex-col">
+                <i class="fa-solid fa-award"></i>
+                <h3>Experience</h3>
+                <p>2+ years</p>
+                <p>Frontend Development</p>
+              </div>
+              <div class="sec1-cards flex-col">
+                <i class="fa-solid fa-user-group"></i>
+                <h3>Education</h3>
+                <p>B.Sc. Bachelors Degree</p>
+                <p>M.Sc. Masters Degree</p>
+              </div>
+            </div>
+            <div class="sec1-part2-2">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                quis reprehenderit et laborum, rem, dolore eum quod voluptate
+                exercitationem nobis, nihil esse debitis maxime facere minus
+                sint delectus velit in eos quo officiis explicabo deleniti
+                dignissimos. Eligendi illum libero dolorum cum laboriosam
+                corrupti quidem, reiciendis ea magnam? Nulla, impedit fuga!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ######### end sec1 about me ##### -->
+      <!-- ######### start sec2 experiens ##### -->
+      <section
+        class="sec2 pad row-gap2 flex-col col-xs-10 col-s-10 col-m-10 col-l-10 col-xl-10 col-x-10"
+      >
+        <div class="sec2-part1 flex-col">
+          <p>Explore My</p>
+          <h2 id="experience">Experience</h2>
+        </div>
+        <div
+          class="sec2-part2 row-gap2 flex col-xs-10 col-s-10 col-m-10 col-l-10 col-xl-10 col-x-10"
+        >
+          <div class="sec2-cards flex-col col-xs-10 col-s-10">
+            <div>
+              <h1>Frontend Development</h1>
+            </div>
+            <div class="sec2-card">
+              <ul class="flex">
+                <li class="flex">
+                  <img src="./assets/checkmark.png" alt="" />
+                  <div class="flex-col">
+                    <p>HTML</p>
+                    <p>Experienced</p>
+                  </div>
+                </li>
+                <li class="flex">
+                  <img src="./assets/checkmark.png" alt="" />
+                  <div class="flex-col">
+                    <p>CSS</p>
+                    <p>Experienced</p>
+                  </div>
+                </li>
+                <li class="flex">
+                  <img src="./assets/checkmark.png" alt="" />
+                  <div class="flex-col">
+                    <p>SASS</p>
+                    <p>Intermediate</p>
+                  </div>
+                </li>
+                <li class="flex">
+                  <img src="./assets/checkmark.png" alt="" />
+                  <div class="flex-col">
+                    <p>JavaScript</p>
+                    <p>Basic</p>
+                  </div>
+                </li>
+                <li class="flex">
+                  <img src="./assets/checkmark.png" alt="" />
+                  <div class="flex-col">
+                    <p>TypeScript</p>
+                    <p>Basic</p>
+                  </div>
+                </li>
+                <li class="flex">
+                  <img src="./assets/checkmark.png" alt="" />
+                  <div class="flex-col">
+                    <p>Material UI</p>
+                    <p>Intermediate</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="sec2-cards flex-col col-xs-10 col-s-10">
+            <div>
+              <h1>Frontend Development</h1>
+            </div>
+            <div class="sec2-card">
+              <ul class="flex">
+                <li class="flex">
+                  <img src="./assets/checkmark.png" alt="" />
+                  <div class="flex-col">
+                    <p>PostgreSQL</p>
+                    <p>Basic</p>
+                  </div>
+                </li>
+                <li class="flex">
+                  <img src="./assets/checkmark.png" alt="" />
+                  <div class="flex-col">
+                    <p>Node JS</p>
+                    <p>Intermediate</p>
+                  </div>
+                </li>
+                <li class="flex">
+                  <img src="./assets/checkmark.png" alt="" />
+                  <div class="flex-col">
+                    <p>Express JS</p>
+                    <p>Intermediate</p>
+                  </div>
+                </li>
+                <li class="flex">
+                  <img src="./assets/checkmark.png" alt="" />
+                  <div class="flex-col">
+                    <p>Git</p>
+                    <p>Intermediate</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ######### end sec2 experiens ##### -->
+      <!-- ######### start sec3 projects ##### -->
+      <section
+        class="sec3 pad row-gap2 flex-col col-xs-10 col-s-10 col-m-10 col-l-10 col-xl-10 col-x-10"
+      >
+        <div class="sec3-part1 flex-col">
+          <p>Browse My Recent</p>
+          <h2 id="project">Projects</h2>
+        </div>
+        <div
+          class="sec3-part2 row-gap2 flex col-xs-10 col-s-10 col-m-10 col-l-10 col-xl-10 col-x-10"
+        >
+          <div
+            class="sec3-cards flex-col col-xs-9 col-s-9 col-m-4 col-l-4 col-xl-3 col-x-3"
+          >
+            <img src="assets/project-1.png" alt="" />
+            <p>Project One</p>
+            <div class="flex">
+              <a href="https://github.com/">Github</a
+              ><a href="https://github.com/">Live Demo</a>
+            </div>
+          </div>
+          <div
+            class="sec3-cards flex-col col-xs-9 col-s-9 col-m-4 col-l-4 col-xl-3 col-x-3"
+          >
+            <img src="assets/project-2.png" alt="" />
+            <p>Project Two</p>
+            <div class="flex">
+              <a href="https://github.com/">Github</a
+              ><a href="https://github.com/">Live Demo</a>
+            </div>
+          </div>
+          <div
+            class="sec3-cards flex-col col-xs-9 col-s-9 col-m-4 col-l-4 col-xl-3 col-x-3"
+          >
+            <img src="assets/project-3.png" alt="" />
+            <p>Project Three</p>
+            <div class="flex">
+              <a href="https://github.com/">Github</a
+              ><a href="https://github.com/">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ######### end sec3 projects ##### -->
+      <!-- ######### start footer ##### -->
+      <footer class="flex-col">
+        <div class="footer-part1 flex-col">
+          <p>Get in Touch</p>
+          <h2 id="contact">Contact Me</h2>
+        </div>
+        <div class="footer-part2 flex">
+          <div>
+            <i class="fa-solid fa-square-envelope"></i
+            ><a href="mailto:engineerabolfazl82@gmail.com">Example@gmail.com</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-linkedin"></i
+            ><a href="https://www.linkedin.com/">LinkedIn</a>
+          </div>
+        </div>
+        <div class="footer-part3 flex-col">
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <p>Copyright © 2023 John Doe. All Rights Reserved.</p>
+        </div>
+      </footer>
+      <!-- ######### end footer ##### -->
+    </main>
+    <!-- js -->
+    <script src="index.js"></script>
+  </body>
+</html>
